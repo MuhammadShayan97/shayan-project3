@@ -553,7 +553,7 @@ export default function Portfolio() {
             href="#top"
             className="flex items-center gap-2 text-xl font-black tracking-wider text-transparent bg-gradient-to-r from-blue-400 via-cyan-400 to-indigo-400 bg-clip-text sm:text-2xl"
           >
-            M. SHAYYAN
+            M. Shayan
             <span className="h-2.5 w-2.5 rounded-full bg-blue-500 animate-pulse" />
           </a>
 
@@ -656,7 +656,7 @@ export default function Portfolio() {
                       "linear-gradient(90deg,#22d3ee,#818cf8,#e879f9,#fb7185,#fbbf24,#22d3ee)",
                   }}
                 >
-                  Shayyan
+                  Shayan
                 </span>
               </h1>
             </Reveal>
@@ -668,7 +668,7 @@ export default function Portfolio() {
                   {!imageError ? (
                     <img
                       src="/shayan.jpeg"
-                      alt="Muhammad Shayyan"
+                      alt="Muhammad Shayan"
                       className="h-full w-full object-cover"
                       onError={() => setImageError(true)}
                     />
@@ -1155,7 +1155,7 @@ export default function Portfolio() {
       {/* FOOTER */}
       <footer className="space-y-3 border-t border-slate-800 bg-[#070B14] px-4 py-10 text-center text-sm text-slate-500">
         <p>
-          © {new Date().getFullYear()} Muhammad Shayyan. Media Studies & AI exploration.
+          © {new Date().getFullYear()} Muhammad Shayan. Media Studies & AI exploration.
           Built with Next.js, React and Tailwind CSS.
         </p>
         <a
